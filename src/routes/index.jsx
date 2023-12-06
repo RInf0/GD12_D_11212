@@ -29,8 +29,10 @@ const router = createBrowserRouter([
                 path:"/dashboard",
                 element: <DashboardPage/>,
             },
+            
         ],
     },
+    
 ]);
 
 const AppRouter = () => {

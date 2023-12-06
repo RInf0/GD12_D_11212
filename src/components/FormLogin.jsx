@@ -43,7 +43,7 @@ const FormLogin = () => {
                 <strong>Info!</strong> Username dan password bebas, yang penting diisi.
             </Alert>
             <FloatingLabel controlId="floatingInput" label="Username" className="mb-3">
-                <Form.Control type="text" placeholder="name@example.com" name="username" onChange={handleChange} />
+                <Form.Control type="text" placeholder="name@example.com" name="username" onChange={handleChange}/>
             </FloatingLabel>
             <FloatingLabel controlId="floatingPassword" label="Password" >
                 <Form.Control type="password" placeholder="Password" name="password" onChange={handleChange} autoComplete="off"/>
